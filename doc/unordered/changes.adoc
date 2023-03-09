@@ -238,7 +238,7 @@
 
 This is major change which has been converted to use Boost.Move's move
 emulation, and be more compliant with the {cpp}11 standard. See the
-xref:unordered.adoc#compliance[compliance section] for details.
+xref:unordered/compliance.adoc[compliance section] for details.
 
 The container now meets {cpp}11's complexity requirements, but to do so
 uses a little more memory. This means that `quick_erase` and
